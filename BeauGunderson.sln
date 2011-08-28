@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{6DE6BC21-2104-4986-B499-0FF572A1B82F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionsTests", "ExtensionsTests\ExtensionsTests.csproj", "{8ECF6D62-76A3-4677-AEB9-09097980A692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2D3E999-467C-4AB3-8439-B0AD2F77BB35}"
+	ProjectSection(SolutionItems) = preProject
+		BeauGunderson.vsmdi = BeauGunderson.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BeauGunderson.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE6BC21-2104-4986-B499-0FF572A1B82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE6BC21-2104-4986-B499-0FF572A1B82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE6BC21-2104-4986-B499-0FF572A1B82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE6BC21-2104-4986-B499-0FF572A1B82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECF6D62-76A3-4677-AEB9-09097980A692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECF6D62-76A3-4677-AEB9-09097980A692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECF6D62-76A3-4677-AEB9-09097980A692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECF6D62-76A3-4677-AEB9-09097980A692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
