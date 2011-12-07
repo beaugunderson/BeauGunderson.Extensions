@@ -42,6 +42,9 @@
   <ItemGroup>
     <Compile Include="ByteArrayExtensions.cs" />
     <Compile Include="DateTimeExtensions.cs" />
+    <Compile Include="DirectoryExtensions.cs" />
+    <Compile Include="EnumExtensions.cs" />
+    <Compile Include="FileInfoExtensions.cs" />
     <Compile Include="GenericExtensions.cs" />
     <Compile Include="IDictionaryExtensions.cs" />
     <Compile Include="GenericArrayExtensions.cs" />

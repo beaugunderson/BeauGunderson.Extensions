@@ -6,8 +6,7 @@ namespace BeauGunderson.Extensions
     public static class IDictionaryExtensions
     {
         public static TValue GetValueOrDefault<TKey, TValue>
-            (this IDictionary<TKey, TValue> dictionary,
-                TKey key)
+            (this IDictionary<TKey, TValue> dictionary, TKey key)
         {
             lock (dictionary)
             {
